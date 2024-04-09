@@ -1,6 +1,6 @@
 # LAMP STACK construido con Docker Compose
 
-![entorno-desarrollo](../assets/images/entorno.png)
+![entorno-desarrollo](/contenedores/docker-compose-lamp/www/assets/images/entorno.png)
 
 Un entorno de LAMP stack básico creado con Docker Compose. Consta de lo siguiente:
 
