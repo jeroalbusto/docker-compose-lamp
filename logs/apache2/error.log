@@ -10,3 +10,21 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Mon Apr 08 23:15:43.944050 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.3.4 OpenSSL/3.0.11 configured -- resuming normal operations
 [Mon Apr 08 23:15:43.944185 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Tue Apr 09 00:26:12.906028 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 09 14:19:02.746598 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.3.4 OpenSSL/3.0.11 configured -- resuming normal operations
+[Tue Apr 09 14:19:02.746670 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 09 19:10:49.137340 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 09 21:15:38.052562 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.3.4 OpenSSL/3.0.11 configured -- resuming normal operations
+[Tue Apr 09 21:15:38.052631 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 09 21:35:08.229472 2024] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Apr 12 11:31:52.640217 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.3.4 OpenSSL/3.0.11 configured -- resuming normal operations
+[Fri Apr 12 11:31:52.640312 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Apr 12 13:37:34.178257 2024] [autoindex:error] [pid 20] [client 172.19.0.1:50122] AH01276: Cannot serve directory /var/www/html/bootstrap/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Apr 12 13:37:37.434414 2024] [autoindex:error] [pid 20] [client 172.19.0.1:50122] AH01276: Cannot serve directory /var/www/html/bootstrap/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Apr 12 13:50:57.337551 2024] [autoindex:error] [pid 20] [client 172.19.0.1:33354] AH01276: Cannot serve directory /var/www/html/bootstrap/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive, referer: http://localhost:82/
+[Fri Apr 12 13:56:00.795110 2024] [autoindex:error] [pid 21] [client 172.19.0.1:34854] AH01276: Cannot serve directory /var/www/html/bootstrap/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive, referer: http://localhost:82/
+[Fri Apr 12 14:01:02.641831 2024] [autoindex:error] [pid 21] [client 172.19.0.1:57934] AH01276: Cannot serve directory /var/www/html/bootstrap/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive, referer: http://localhost:82/
+[Fri Apr 12 14:01:07.323091 2024] [autoindex:error] [pid 21] [client 172.19.0.1:57934] AH01276: Cannot serve directory /var/www/html/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive, referer: http://localhost:82/
+[Fri Apr 12 14:01:12.573980 2024] [autoindex:error] [pid 16] [client 172.19.0.1:34506] AH01276: Cannot serve directory /var/www/html/php/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive, referer: http://localhost:82/
